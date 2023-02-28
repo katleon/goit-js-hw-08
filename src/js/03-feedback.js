@@ -12,7 +12,7 @@ function localData() {
     email: email.value,
     message: message.value,
   };
-  localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(FormData));
+  localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(formData));
 }
 
 function onLocalData() {
